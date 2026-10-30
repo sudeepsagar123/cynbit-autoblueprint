@@ -1,0 +1,54 @@
+[
+  {
+    "inquiry_id": "INQ-WIZ-101",
+    "customer_name": "Dr. Aravind Mehta",
+    "company_name": "MedAxis Multi-Specialty Clinics",
+    "email": "amehta@medaxis-health.example.com",
+    "industry": "Healthcare & Clinical AI",
+    "project_title": "AI Patient Symptom Triage & Clinical Intake Platform",
+    "project_description": "We operate 14 outpatient clinics and experience severe front-desk triage bottlenecks. We need an AI diagnostic triage assistant that captures structured patient symptoms before arrival, classifies urgency tiers, integrates with our PostgreSQL EHR records, and routes high-risk cases to a physician Human-in-the-Loop dashboard for immediate sign-off.",
+    "business_objectives": "Reduce patient intake wait times by 50%; ensure 100% physician oversight on high-risk triage classifications; maintain 99.9% clinical system availability.",
+    "budget_range": "$45,000 - $65,000 (Preliminary Scope)",
+    "expected_timeline": "12 Weeks",
+    "additional_requirements": "Strict PHI data encryption, role-based access control for doctors vs. receptionists, and full audit trails."
+  },
+  {
+    "inquiry_id": "INQ-PROP-102",
+    "customer_name": "Ritika Sharma",
+    "company_name": "MetroStay Residential Holdings",
+    "email": "ritika@metrostay.example.com",
+    "industry": "PropTech & Real Estate",
+    "project_title": "Smart Multi-Property Tenant & Predictive Rent Portal",
+    "project_description": "We manage 1,200 rental units across 18 apartment buildings using manual spreadsheets and scattered WhatsApp chats. We want a centralized property and tenant management platform similar to TenantEase with digital tenant ID verification, unit vacancy tracking, automated monthly rent reminders, and predictive late-payment risk alerts.",
+    "business_objectives": "Eliminate manual rent tracking spreadsheets; achieve 98%+ on-time rent collection; provide real-time occupancy and revenue dashboards for property owners.",
+    "budget_range": "$35,000 - $50,000 (Preliminary Scope)",
+    "expected_timeline": "10 Weeks",
+    "additional_requirements": "Automated payment receipt generation, tenant maintenance ticket triage, and historical payment audit logs."
+  },
+  {
+    "inquiry_id": "INQ-EVT-103",
+    "customer_name": "Karan Malhotra",
+    "company_name": "StagePulse Live Arena",
+    "email": "karan@stagepulse.example.com",
+    "industry": "Entertainment & High-Concurrency SaaS",
+    "project_title": "High-Concurrency Live Event Ticketing & AI Concierge",
+    "project_description": "During major concert drops, our current ticketing website crashes when more than 5,000 users join simultaneously. We need a cloud-native ticketing architecture capable of handling 50,000+ concurrent users with zero latency flicker, distributed Redis seat-lock queues, and an AI support agent for instant booking inquiries.",
+    "business_objectives": "Support 50,000+ simultaneous ticket buyers without downtime; prevent double-booking via atomic seat locks; automate 80% of fan support queries.",
+    "budget_range": "$60,000 - $85,000 (Preliminary Scope)",
+    "expected_timeline": "14 Weeks",
+    "additional_requirements": "Kubernetes auto-scaling, cross-border payment gateway integration, and anti-bot queue protection."
+  },
+  {
+    "inquiry_id": "INQ-REV-104",
+    "customer_name": "Neha Kapoor",
+    "company_name": "Aura Care Retail & Dental Network",
+    "email": "neha@auracare.example.com",
+    "industry": "Multi-Location Retail & Healthcare",
+    "project_title": "Multi-Branch AI Reputation & Crisis Escalation Engine",
+    "project_description": "We manage 35 retail and dental branches receiving over 2,500 Google and Instagram reviews monthly. We need an AI reputation management platform like Revio that syncs reviews across platforms, performs aspect-based sentiment analysis per branch, drafts brand-safe responses, and triggers immediate crisis alerts for manager approval.",
+    "business_objectives": "Centralize reputation monitoring across all 35 branches; reduce review response time to under 2 hours; detect branch-level operational defects early.",
+    "budget_range": "$30,000 - $45,000 (Preliminary Scope)",
+    "expected_timeline": "9 Weeks",
+    "additional_requirements": "Role-based hierarchy for Global Admins, Brand Managers, and Branch Advisors."
+  }
+]
