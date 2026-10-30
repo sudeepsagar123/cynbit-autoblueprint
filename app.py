@@ -24,6 +24,21 @@ from __future__ import annotations
 import argparse
 import json
 import os
+
+# Load Streamlit Community Cloud secrets into environment variables.
+try:
+    import streamlit as st
+    for key in (
+        "GEMINI_API_KEY",
+        "GEMINI_MODEL",
+        "GEMINI_EMBEDDING_MODEL",
+    ):
+        value = st.secrets.get(key)
+        if value and not os.environ.get(key):
+            os.environ[key] = str(value)
+except Exception:
+    pass
+
 from typing import Any, Dict, List
 
 from agents.approval import HumanApprovalManager
